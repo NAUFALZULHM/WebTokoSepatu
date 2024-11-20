@@ -1,0 +1,648 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap");
+
+.nav-button {
+  margin-left: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Geologica", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h6 {
+  color: #2f1e1ea9;
+}
+
+button {
+  font-size: 0.8rem;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  background-color: coral;
+  color: black;
+}
+.navbar {
+  font-size: 16px;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  top: 0;
+  left: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 20px;
+  color: black;
+  transition: 0.4s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active .navbar i:hover {
+  color: coral;
+}
+
+.navbar i {
+  font-size: 1.2rem;
+  padding: 0 0.7px;
+  transition: 0.4s ease;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-button {
+    margin: 10px;
+  }
+
+  .nav-button ul {
+    margin: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .nav-button ul .fas {
+    margin: 20px 5px 10px 20px;
+  }
+}
+
+#home {
+  background-image: url("../img/backRunning.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position-x: 120px;
+  background-position-y: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#home span {
+  color: coral;
+}
+
+#new .one img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#new .one {
+  position: relative;
+}
+
+#new .one .detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: burlywood;
+  font-weight: bold;
+  transition: 0.4s ease;
+  opacity: 0.5;
+  background-color: rgb(1, 1, 1);
+  width: 100%;
+  height: 100%;
+}
+
+#new .one .detail:hover {
+  background-color: cornsilk;
+}
+
+#new .one:nth-child(1) .detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+}
+
+#new .one:nth-child(2) .detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#new .one:nth-child(3) .detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+}
+
+/* Product */
+
+.product {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.product img {
+  transition: 0.3s all;
+}
+
+.product:hover img {
+  opacity: 0.7;
+}
+
+.product .buy-btn {
+  background-color: coral;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 0.3s all;
+  color: white;
+}
+
+.shop-buy-btn {
+  background-color: coral;
+
+  opacity: 1;
+
+  color: white;
+  text-decoration: none;
+}
+
+.product:hover .buy-btn {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+hr {
+  width: 30px;
+  height: 3px !important;
+  opacity: 1 !important;
+  border: none;
+  margin: auto;
+  background-color: coral;
+}
+
+.hrkhusus {
+  width: 200px;
+  height: 3px !important;
+  opacity: 1 !important;
+  border: none;
+  margin-left: 0;
+  background-color: coral;
+}
+.star {
+  padding: 10px 0;
+}
+
+.star i {
+  font-size: 0.9rem;
+  color: goldenrod;
+}
+
+#banner {
+  background-image: url("../img/backRunning.jpg");
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#banner h1 {
+  color: coral;
+}
+
+#banner button {
+  background-color: coral;
+}
+
+#banner button:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: black;
+}
+
+footer h5 {
+  color: #d8d8d8;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+footer li {
+  padding-bottom: 4px;
+}
+
+footer li a {
+  font-size: 0.8rem;
+  color: #999;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  color: #d8d8d8;
+}
+
+footer .copyright a {
+  color: black;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+  margin: 0 5px;
+}
+
+footer .copyright a:hover {
+  color: white;
+  background-color: coral;
+}
+
+footer p {
+  color: white;
+}
+
+footer .copyright img {
+  width: 30%;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar .brand {
+  color: coral;
+  margin: 3px 5px;
+  font-size: 1.5rem;
+}
+
+/* single_produk */
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.single-product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.single-product input:focus {
+  outline: none;
+}
+
+.single-product .buy-btn {
+  background-color: coral;
+  opacity: 1;
+  transition: 0.4s all;
+}
+
+.single-product .buy-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Keranjang/Cart */
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart .product-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart th {
+  text-align: left;
+  padding: 5px 10px;
+  color: white;
+  background-color: coral;
+}
+
+.cart td {
+  padding: 10px 20px;
+}
+
+.cart td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.cart td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+.cart td a {
+  color: coral;
+}
+
+.cart .remove-btn {
+  color: coral !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  background: none !important;
+  border: none !important;
+  width: 100% !important;
+}
+
+.cart .remove-btn {
+  color: coral;
+  text-decoration: none;
+  font-size: 15px;
+  background: none !important;
+  border: none !important;
+  width: 100% !important;
+}
+
+.cart .edit-btn {
+  color: coral;
+  text-decoration: none;
+  font-size: 15px;
+  background: none !important;
+  border: none !important;
+}
+
+.cart .product-info p {
+  margin: 3px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-total table {
+  width: 100%;
+  max-width: 500px;
+  border-top: 3px solid coral;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkout-btn-container p {
+  margin-top: 40px;
+  margin-bottom: 1rem;
+}
+
+.checkout-btn {
+  background-color: coral;
+  color: white;
+}
+
+/* Checkout Button Container */
+.checkout-btn-container p {
+  margin-top: 40px;
+  margin-bottom: 1rem;
+}
+
+/* Checkout Button */
+.checkout-btn {
+  background-color: coral;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background-color: darkorange;
+}
+
+/* General Styles for Form */
+#checkout-form .form-group {
+  margin-bottom: 10px;
+}
+
+.tengah {
+  text-align: center;
+}
+
+#checkout-form input[type="text"],
+#checkout-form input[type="email"],
+#checkout-form input[type="tel"],
+#checkout-form input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #251e1eb5;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-left: 25%;
+}
+
+#checkout-form input[type="submit"] {
+  background-color: coral;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#checkout-form input[type="submit"]:hover {
+  background-color: darkorange;
+  color: rgb(255, 255, 255);
+}
+
+/* Login */
+
+#login-form {
+  width: 50%;
+  max-width: 400px; /* Lebar maksimum form */
+  margin: 5% auto; /* Menengahkan form dan memberi jarak atas/bawah */
+  text-align: center;
+  padding: 20px;
+  border: 1px solid coral;
+  border-radius: 8px; /* Menggunakan border-radius untuk sudut elemen */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan untuk mendapatkan tampilan lebih menonjol */
+}
+
+#login-form input {
+  width: 100%; /* Memastikan input form mengambil lebar maksimum yang tersedia */
+  margin: 10px 0; /* Memberi jarak antar elemen input */
+  padding: 10px; /* Memberikan padding untuk meningkatkan kenyamanan pengguna */
+  box-sizing: border-box; /* Menghitung padding dan border ke dalam width untuk menghindari perubahan ukuran yang tidak diinginkan */
+  border: 1px solid #ccc; /* Menambahkan border ringan */
+  border-radius: 4px; /* Memberikan border-radius untuk sudut input */
+}
+
+#login-form #login-btn {
+  width: 100%; /* Tombol login mengambil lebar maksimum form */
+  background-color: coral;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#login-form #register-url {
+  color: coral;
+  text-decoration: none; /* Menghapus garis bawah dari link */
+  display: inline-block; /* Menjadikan link sebagai blok inline agar bisa diatur ukurannya */
+  margin-top: 10px; /* Memberi jarak atas untuk link registrasi */
+}
+
+/* Register */
+#register-form {
+  width: 50%;
+  margin: 5px auto;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid coral;
+}
+
+#register-form input {
+  width: 50%;
+  margin: 5px auto;
+}
+
+#register-form #register-btn {
+  background-color: coral;
+  color: white;
+}
+
+#register-form #login-url {
+  color: coral;
+}
+
+/* Akun */
+
+#account-form {
+  width: 50%;
+  margin: 35px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#account-form input {
+  margin: 5px auto;
+}
+
+#account-form #change-pass-btn {
+  color: white;
+  background-color: coral;
+}
+
+.account-info #order-btn,
+#logout-btn {
+  color: coral;
+  text-decoration: none;
+}
+
+/* Pesanan/Order */
+.order table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order .product-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.order th {
+  padding: 5px 10px;
+  color: white;
+  background-color: coral;
+  /* text-align: left; */
+}
+
+.order td {
+  padding: 10px 20px;
+}
+
+.order td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.order .btn {
+  color: white;
+  background-color: coral;
+}
+
+.custom-amount {
+  margin: 10px 40%;
+  text-align: center;
+  width: 20%;
+}
+
+.successmid {
+  text-align: center;
+}

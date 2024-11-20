@@ -1,0 +1,395 @@
+1. Buat folder
+
+2. Copy css boostrap
+3. Copy js bootsrap
+4. copy link css font awesome
+5. copy navbar bootstrap
+
+copy icon yang diperlukan 
+
+cari font di fontgoogle.com
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Phanter Vibranium',
+  'Ortuseight',
+  'Sepatu Lari Pria & Wanita',
+  'ortus1.jpg',
+  'ortus1.jpg',
+  'ortus1.jpg',
+  'ortus1.jpg',
+  245000,  
+  NULL,    
+  'Hitam'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Hyperglide 3.0',
+  'Ortuseight',
+  'Sepatu Lari Pria & Wanita',
+  'ortus2.jpg',
+  'ortus2.jpg',
+  'ortus2.jpg',
+  'ortus2.jpg',
+  285000,  
+  NULL,    
+  'White Ortred Navy'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Hyperdrive 2.0',
+  'Ortuseight',
+  'Sepatu Lari Pria & Wanita',
+  'ortus2.jpg',
+  'ortus2.jpg',
+  'ortus2.jpg',
+  'ortus2.jpg',
+  145000,  
+  NULL,    
+  'Ocean Cyan White'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Solar',
+  'Ortuseight',
+  'Sepatu Lari Pria & Wanita',
+  'ortus4.jpg',
+  'ortus4.jpg',
+  'ortus4.jpg',
+  'ortus4.jpg',
+  2585000,  
+  NULL,    
+  'White Ortrange'
+);
+
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Galaxy 6',
+  'Adidas',
+  'Sepatu Lari Pria',
+  'adidas1.jpg',
+  'adidas1.jpg',
+  'adidas1.jpg',
+  'adidas1.jpg',
+  680000,  
+  NULL,    
+  'Ftwr White'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Duramo SL GV7124',
+  'Adidas',
+  'Sepatu Lari Pria',
+  'adidas2.jpg',
+  'adidas2.jpg',
+  'adidas2.jpg',
+  'adidas2.jpg',
+  900000,  
+  NULL,    
+  'Black White Strip'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Duramo SL solar',
+  'Adidas',
+  'Sepatu Lari Pria',
+  'adidas3.jpg',
+  'adidas3.jpg',
+  'adidas3.jpg',
+  'adidas3.jpg',
+  2325000,  
+  NULL,    
+  'Solar Red'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Duramo SL IE7965',
+  'Adidas',
+  'Sepatu Lari Pria',
+  'adidas4.jpg',
+  'adidas4.jpg',
+  'adidas4.jpg',
+  'adidas4.jpg',
+  1585000,  
+  NULL,    
+  'Multiwarna'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Downshifter 13',
+  'Nike',
+  'Sepatu Lari Pria dan Wanita',
+  'nike1.jpg',
+  'nike1.jpg',
+  'nike1.jpg',
+  'nike1.jpg',
+  764000,  
+  NULL,    
+  'White Blue Strip'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Revolution 6 NN',
+  'Nike',
+  'Sepatu Lari Pria dan Wanita',
+  'nike2.jpg',
+  'nike2.jpg',
+  'nike2.jpg',
+  'nike2.jpg',
+  400000,  
+  NULL,    
+  'Blue'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Unchained FD6454',
+  'Nike',
+  'Sepatu Lari Pria dan Wanita',
+  'nike3.jpg',
+  'nike3.jpg',
+  'nike3.jpg',
+  'nike3.jpg',
+  2000000,  
+  NULL,    
+  'Light Gray'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'ZOOM X Tiger Fangs',
+  'Nike',
+  'Sepatu Lari Pria dan Wanita',
+  'nike4.jpg',
+  'nike4.jpg',
+  'nike4.jpg',
+  'nike4.jpg',
+  2895000,  
+  NULL,    
+  'White'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Floatride Fuel',
+  'Reebok',
+  'Sepatu Lari Pria dan Wanita',
+  'reebok1.jpg',
+  'reebok1.jpg',
+  'reebok1.jpg',
+  'reebok1.jpg',
+  500000,  
+  NULL,    
+  'Grey'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Full Foom',
+  'Reebok',
+  'Sepatu Lari Pria dan Wanita',
+  'reebok2.jpg',
+  'reebok2.jpg',
+  'reebok2.jpg',
+  'reebok2.jpg',
+  789000,  
+  NULL,    
+  'Black White Strip'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Ogre S65DT',
+  'Reebok',
+  'Sepatu Lari Pria dan Wanita',
+  'reebok3.jpg',
+  'reebok3.jpg',
+  'reebok3.jpg',
+  'reebok3.jpg',
+  359000,  
+  NULL,    
+  'Black Orange'
+);
+
+INSERT INTO `products` (
+  `product_name`, 
+  `product_category`, 
+  `product_description`, 
+  `product_image`, 
+  `product_image2`, 
+  `product_image3`, 
+  `product_image4`, 
+  `product_price`, 
+  `product_special_offer`,
+  `product_color`
+) VALUES (
+  'Wolf ZOOM X',
+  'Reebok',
+  'Sepatu Lari Pria',
+  'reebok4.jpg',
+  'reebok4.jpg',
+  'reebok4.jpg',
+  'reebok4.jpg',
+  2745000,  
+  NULL,    
+  'Elegant Black'
+);
